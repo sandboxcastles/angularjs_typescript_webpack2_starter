@@ -1,0 +1,18 @@
+<div class="sample-component">
+    <h3>This is from the Sample Component</h3>
+    <div style="width:50%;float:left;">
+        <p>Isn't it fancy?</p>
+        <input ng-model="$ctrl.theInput" />
+        <p>{{$ctrl.theInput}}</p>
+        <button ng-click="$ctrl.alertMe()">Alert!!!</button>
+    </div>
+    <div style="width:50%;float:left;">
+        <div class=github-user>
+            <p>Github Username: <input ng-model="$ctrl.githubUsername" /><button ng-click="$ctrl.loadNewGithubUser()">Find!</button></p>
+            <h4>Name: {{$ctrl.githubUser.name}}</h4>
+            <img ng-src="{{$ctrl.githubUser.avatar_url}}" width="150" />
+            <p><a target="_blank" ng-href="http://github.com/{{$ctrl.githubUser.login}}">Github Page</a></p>    
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+</div>

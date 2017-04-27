@@ -1,0 +1,1 @@
+export {NgComponent, NgComponentController, NgComponentOptions} from './NgComponentClass';

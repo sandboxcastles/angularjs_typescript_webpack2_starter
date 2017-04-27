@@ -1,0 +1,27 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "moduleResolution": "node",
+        "target": "es2015",
+        "removeComments": true,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "typeRoots": [
+            "node_modules",
+            "typescript_typings"
+        ],
+        "types": [
+            "angular",
+            "webpack-require"
+        ]
+    },
+    "files": ["./src/app/app.module.ts"],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
