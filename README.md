@@ -1,4 +1,4 @@
-# Basic Webpack 2 Typescript compilation
+# AngularJS Typescript Webpack 2 Starter Project
 
 To use, clone or download this repostitory, then:
 
